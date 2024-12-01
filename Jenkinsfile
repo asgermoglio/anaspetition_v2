@@ -56,7 +56,7 @@ pipeline {
                         // Example: Assuming a deploy script named "deploy.sh"
                         script {
                             if (params.REDEPLOY_CONFIRM) {
-                                sh 'sh deploy.sh'
+                                sh 'mvn compiler:compile'
                             } else {
                                 echo 'Redeployment cancelled.'
                             }
