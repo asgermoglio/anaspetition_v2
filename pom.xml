@@ -12,7 +12,7 @@
 	<artifactId>anaspetition</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>anaspetition</name>
+	<name>anaspetition_v2</name>
 	<description>Anas Petition</description>
 	<url/>
 	<licenses>
